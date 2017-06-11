@@ -15,11 +15,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txt"
-        android:text="“Make everyday decisions easier!"
+        android:text="Make everyday decisions easier!"
         android:textSize="20sp"
         android:textColor="@android:color/black"
         android:textAlignment="center"
         android:textStyle="bold"
+        android:background="#3F51B5"
+        android:padding="10dp"
         />
 
     <ImageView
@@ -35,6 +37,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/askButton"
         android:text="Ask"
+        android:textSize="20sp"
         android:background="#3F51B5"
         android:textColor="@android:color/white"/>
 </RelativeLayout>
